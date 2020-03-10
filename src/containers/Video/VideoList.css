@@ -1,0 +1,10 @@
+.card_wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activeCategory{
+  color: #006c39 !important;
+  text-transform: capitalize;
+}

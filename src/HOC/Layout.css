@@ -1,0 +1,26 @@
+
+
+.navItems{
+  list-style: none;
+}
+
+.navItems li{
+  list-style: none;
+  padding: 10px;
+
+}
+
+.navItems li a , .navItems li a:visited , .navItems li a:link{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s
+}
+
+.navItems li a:hover ,a.active{
+color: #006c39 !important;
+transition: all 0.3s
+}
